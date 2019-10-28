@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  
+  font-style: bold;
+  color: #ffffff;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  height: 100px;
+}
+h2 {
+  height: 50px;
+  padding: 20px;
+  vertical-align: bottom;
+  text-align: center;
+  width: 100px;
+}
+
+table,th,td {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 15px;
+  text-align: center;
+  height: 50px;
+  color:#ffffff;
+}
+td{
+  height: 50px;
+  padding: 20px;
+  vertical-align: bottom;
+  text-align: center;
+  width: 100px;
+}
+
+table {
+  width = 100%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+
+
